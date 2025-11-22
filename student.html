@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My Test Site — GitHub Publish Demo</title>
+  <link rel="stylesheet" href="red.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1>My Test Site</h1>
+      <p class="subtitle">Simple demo website — to test publishing on GitHub Pages</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="intro">
+      <h2>Purpose / uddesyam</h2>
+      <p>
+        This small site demonstrates a landing page where students can download
+        previous exam papers. Use it to test uploading to GitHub and viewing
+        publicly via GitHub Pages.
+      </p>
+    </section>
+
+    <section class="papers">
+      <h2>Sample Previous Papers</h2>
+      <p>Click any link to download a sample PDF (placeholders).</p>
+      <ul class="paper-list">
+        <li><a href="sample/AI_2023.pdf" target="_blank" rel="noopener">AI - 2023 (Sample PDF)</a></li>
+        <li><a href="sample/CS_2022.pdf" target="_blank" rel="noopener">Computer Science - 2022 (Sample PDF)</a></li>
+        <li><a href="sample/ME_2021.pdf" target="_blank" rel="noopener">Mechanical - 2021 (Sample PDF)</a></li>
+      </ul>
+    </section>
+
+    <section class="contact">
+      <h2>Contact</h2>
+      <p>If you want, replace these files with your real papers and info.</p>
+      <form id="contactForm">
+        <input type="text" id="name" placeholder="Your name" required />
+        <input type="email" id="email" placeholder="Your email" required />
+        <textarea id="message" placeholder="Message (optional)"></textarea>
+        <button type="submit">Send (demo)</button>
+      </form>
+      <p id="formResponse" class="hidden"></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>Made for GitHub Pages test • Telugu + English</small>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
